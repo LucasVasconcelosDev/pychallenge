@@ -1,0 +1,6 @@
+var=input('digite algo:')
+print('possui apenas letras?', var.isalpha())
+print('possui apenas numeros?', var.isnumeric())
+print('possui numeros e letras?', var.isalnum())
+print('possui letras minusculas?', var.islower())
+print('possui letras maiusculas?', var.isupper())
